@@ -1,0 +1,570 @@
+body{
+    min-width: 1300px;
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.heading{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 550;
+    background-color: rgb(5, 73, 107);
+    color: white;
+}
+.list ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+.list ul a{
+    text-decoration: none;
+    color: white;
+}
+.signing p a{
+      text-decoration: none;
+    color: white;
+}
+.social img{
+    width: 40px;
+    height: 40px;
+}
+.social{
+    display: flex;
+    gap: 30px;
+}
+.development a{
+    text-decoration: none;
+    color: black;
+}
+.exceed h2{
+    padding-left: 50px;
+}
+.prince p{
+    font-weight: 550;
+}
+.logbtn button{
+    cursor: pointer;
+}
+.building{
+    display: flex;
+    background: linear-gradient(to right,rgb(124, 211, 245),white);
+    gap: 80px;
+    justify-content: center;
+    width: 100%;
+}
+.building .house img{
+    width: 800px;
+    height: 620px;
+}
+.building .life{
+    width: 650px;
+    font-size: larger;
+    margin-top: 125px;
+}
+.magizh{
+    display: flex;
+    margin-top: 50px;
+    overflow-x: scroll;
+}
+.magizh::-webkit-scrollbar{
+    display: none;
+}
+.chair{
+    display: flex;
+    gap: 20px;
+}
+.chair img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: 40px;
+}
+.life button{
+    padding: 17px;
+    border-radius: 11px;
+    background-color: black;
+    font-size: large;
+    color: white;
+    font-weight: 550;
+}
+.chair p{
+    font-size: 40px;
+    font-weight: 550;
+}
+.more{
+    letter-spacing: 55px;
+    padding-left: 15px;
+    color: red;
+}
+.readbtn{
+    padding-left: 130px;
+}
+.gauge{
+    width: 350px;
+    height:150px;
+    position: relative;
+    overflow: hidden;
+    left: 15px;
+}
+.arc{
+    width: 300px;
+    height: 350px;
+    border-radius: 50%;
+    border: 25px solid red;
+    border-bottom: none;
+}
+.text{
+    position: absolute;
+    top:50px;
+    left: 50px;
+    width: 220px;
+    height: 220px;
+    text-align: center;
+     background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  display: flex;
+  text-align: center;
+    justify-content: center;
+    font-weight: 550;
+
+}
+.text p {
+  margin: 5px 0 0;
+  font-size: 24px;
+}
+.wrapper{
+    position: relative;
+    width: 320px;
+    height: 260px;
+    right: 385px;
+    top: 90px;
+}
+.card{
+    position: absolute;
+    top: 0;
+    left: 140%;
+    width: 220px;
+    height: 220px;
+     background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+.card p{
+    font-weight: 550;
+}
+.semi{
+    position: absolute;
+    bottom: 0;
+    left:120%;
+    width: 300px;
+    height: 160px;
+    border-radius: 0 0 320px 320px;
+  border: 25px solid red; /* red arc */
+  border-top: none;
+}
+.up{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.lead{
+    text-align: center;
+    font-size: larger;
+}
+.morebtn button{
+    background-color: rgb(5, 73, 107);
+    color: white;
+    padding: 15px;
+    border-radius: 11px;
+    font-size: large;
+    font-weight: 550;
+}
+.morebtn{
+    text-align: center;
+}
+.floor{
+    background-color: rgb(6, 95, 70);
+    color: white;
+    width: 550px;
+    padding:25px;
+}
+.square{
+    display: flex;
+    justify-content: center;
+}
+.base{
+    font-size: 40px;
+}
+.base ul li{
+    font-size: 20px;
+    padding: 15px;
+}
+.boy{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.smile{
+    width: 350px;
+    font-size: 25px;
+    margin-top: 125px;
+    padding: 25px;
+    font-weight: 550;
+}
+.tube{
+    display: flex;
+    overflow-x: scroll;
+    gap: 130px;
+}
+.tube::-webkit-scrollbar{
+    display: none;
+}
+.boy img{
+    width: 850px;
+    height: 500px;
+    padding: 65px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(5, 73, 107);
+    color: white;
+}
+.policy ul{
+    list-style: none;
+    font-size: larger;
+    padding: 15px;
+}
+.policy ul li{
+    padding: 10px;
+}
+.policy {
+    display: flex;
+    gap: 50px;
+}
+.footlogo{
+    display: flex;
+    gap: 50px;
+}
+.footlogo p{
+    font-size: 30px;
+    font-weight: 550;
+}
+.footlogo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.project p{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 650;
+}
+
+.project img{
+    width: 100%;
+    /* filter:brightness(5.5); 
+    background-color: rgb(14, 185, 252);
+    background: rgba(0,0,0,1);  */
+    filter:brightness(0.75);  
+}
+.project h1 {
+  color: white;
+  font-size: 48px;
+  position: absolute;
+  top: 350px;
+  left: 650px;
+}
+.development{
+    display: flex;
+    justify-content: space-around;
+}
+.development img{
+    width: 600px;
+    height: 600px;  
+}
+.development p{
+    font-size: 35px;
+    font-weight: 550;
+}
+.apsara{
+    margin-top: 150px;
+}
+.cloud img{
+    width: 100%;
+}
+.admin{
+    text-align: center;
+    font-size: larger;
+    font-weight: 550;
+    border: 1px solid lightgray;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    width: 400px;
+    border-radius: 15px;
+    padding: 15px;
+}
+.admin button{
+    padding: 15px;
+    background-color: navy;
+    color: white;
+    font-weight: 550;
+    font-size: large;
+    border-radius: 11px;
+}
+.apply{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.green img{
+    width: 350px;
+    height: 450px;
+    border-radius: 15px;
+}
+.greenone img{
+    width: 350px;
+    height: 450px;
+    border-radius: 15px;
+}
+.greenone{
+    margin-top: 100px;
+}
+.greentwo{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 15px;
+}
+.dreams{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 350px;
+}
+.create{
+    text-align: center;
+}
+.van{
+    text-align: center
+}
+.trust img{
+    width: 100%;
+}
+.company{
+    display: flex;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    justify-content: center;
+    padding: 45px;
+}
+.company img{
+    width: 350px;
+}
+.areas{
+    font-size: larger;
+    font-size: 650;
+    text-align: center;
+}
+.areas p span{
+    font-size: 35px;
+    font-weight: 650;
+}
+.raise{
+    text-align: center;
+}
+.nagar{
+    text-align: center;
+}
+.exceed{
+    text-align: center;
+    font-size: 25px;
+}
+.exceed h2{
+    text-align: left;
+}
+.bring p{
+    font-size: 25px;
+    font-weight: 650;
+}
+.bring{
+    text-align: center;
+}
+.month img{
+    width: 100%;
+}
+.book{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    gap: 50px;
+}
+.avenue input{
+    width: 550px;
+    height: 50px;
+    border-radius: 11px;
+    border: 1px solid gray;
+}
+.avenue textarea{
+    width: 550px;
+    height: 90px;
+    border-radius: 11px;
+    border: 1px solid gray;   
+}
+.avenuebtn button{
+    padding: 15px;
+    border: none;
+    font-size: large;
+    font-weight: 550;
+    color: white;
+    background-color: navy;
+    border-radius: 11px;
+}
+.avenuebtn{
+    padding-left: 200px;
+}
+.rest{
+    border: 1px solid gray;
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    border-radius: 11px;
+}
+.continue{
+    width: 300px;
+    margin-bottom: 25px;
+    border: 1px solid gray;
+    padding: 15px;
+     box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    border-radius: 11px;
+}
+.prince{
+     border: 1px solid gray;
+    padding: 15px;
+     box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    border-radius: 11px;
+}
+.rest label{
+    font-size: large;
+    font-weight: 550;
+}
+.continue p{
+    font-weight: 550;
+}
+.add h3{
+    font-size: 25px;
+}
+.car{
+    display: flex;
+    justify-content: center;
+}
+.egg{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 750px;
+     font-size: larger;
+    font-weight: 550;
+}
+
+.park{
+    display: flex;
+    gap: 50px;
+    padding-left: 130px;
+    font-size: larger;
+    font-weight: 550;
+}
+.deluxe{
+    border: 1px solid lightgray;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    padding: 15px;
+    text-align: center;
+}
+.key{
+    padding-left: 10px;
+    margin-top: 50px;
+}
+.prop img{
+    width: 100%;
+}
+.egg button{
+    width: 250px;
+    background-color: lightgray;
+    border-radius: 11px;
+    height: 50px;
+    border: none;
+    font-size: large;
+    font-weight: 550;
+}
+.whole{
+    line-height: 0.1;
+}
+.wholeone{
+     line-height: 0.1;
+    margin-top: -570px;
+    }
+
+.wholetwo{
+     line-height: 0.1;
+    margin-top: -120px;
+}
+.screen img{
+    width: 450px;
+    height: 300px;
+}
+.cartwo img{
+    width: 90%;
+    height: 100%;
+}
+.carone{
+    display: flex;
+    justify-content: center;
+}
+
+.carthree img{
+    width: 90%;
+    height: 50%;
+}
+.carfour img{
+    width: 90%;
+    height: 83%;
+}
+.logging{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+.logging input{
+    width: 450px;
+    height: 70px;
+    border-radius: 11px;
+    border: 1px solid gray;
+}
+.logbtn button{
+    width: 150px;
+    border-radius: 11px;
+    background-color: navy;
+    color: white;
+    font-size: large;
+    font-weight: 550;
+    height: 70px;
+}
+.logbtn{
+    padding-left: 150px;
+}
+.hold{
+    margin-top: 150px;
+}
+
+.hold label{
+    font-size: large;
+    font-weight: 650;
+}
+.load{
+    padding-left: 150px;
+    margin-top: 50px;
+}
